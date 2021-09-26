@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be9c834a.chunk.css",
+    "main.js": "/static/js/main.33233845.chunk.js",
+    "main.js.map": "/static/js/main.33233845.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b872b1c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b872b1c8.js.map",
+    "static/js/2.2059abcb.chunk.js": "/static/js/2.2059abcb.chunk.js",
+    "static/js/2.2059abcb.chunk.js.map": "/static/js/2.2059abcb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.be9c834a.chunk.css.map": "/static/css/main.be9c834a.chunk.css.map",
+    "static/js/2.2059abcb.chunk.js.LICENSE.txt": "/static/js/2.2059abcb.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/jakob-owens-FKyHyNowp-4-unsplash.94b486eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b872b1c8.js",
+    "static/js/2.2059abcb.chunk.js",
+    "static/css/main.be9c834a.chunk.css",
+    "static/js/main.33233845.chunk.js"
+  ]
+}

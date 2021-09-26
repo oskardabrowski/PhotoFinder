@@ -1,0 +1,22 @@
+.footer {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, #61c0ff, #0099ff);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    &>div {
+        margin: 1rem;
+        font-size: 1.5rem;
+        color: white;
+        @include mediaQuery(tablet7) {
+            font-size: 1rem;
+        }
+        @include mediaQuery(phone5) {
+            font-size: .75rem;
+        }
+    }
+}

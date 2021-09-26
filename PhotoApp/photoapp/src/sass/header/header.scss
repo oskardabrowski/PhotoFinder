@@ -1,0 +1,52 @@
+.header {
+    background: linear-gradient(to top right, #61c0ff, #0099ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    @include mediaQuery(tablet9) {
+        flex-direction: column;
+    }
+    & > svg {
+        width: 15rem;
+        margin: .5rem;
+    }
+
+    &-searchbar {
+        margin: .5rem;
+        position: relative;
+        @include mediaQuery(phone6) {
+            width: 100%;
+        }
+
+        & > input {
+            width: 45rem;
+            height: 2rem;
+            border-radius: 25px;
+            border: 2px solid #0064a7;
+            padding-left: 1rem;
+            @include mediaQuery(tablet8) {
+                width: 35rem;
+            }
+            @include mediaQuery(phone6) {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.searchBtn {
+    fill: black;
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

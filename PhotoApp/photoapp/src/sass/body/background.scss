@@ -1,0 +1,10 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./img/jakob-owens-FKyHyNowp-4-unsplash.jpg');
+    background-attachment: fixed;
+    position: relative;
+    @include mediaQuery(tablet7) {
+        height: 100%;
+    }
+}
